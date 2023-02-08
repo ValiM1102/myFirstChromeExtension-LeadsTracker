@@ -8,8 +8,9 @@ const unList = document.querySelector("#ul-el")
 
 inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
-    render()
     inputEl.value = 'input here' 
+    render()
+    
 })
 
 function render(){
