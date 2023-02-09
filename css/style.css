@@ -10,12 +10,12 @@ body{
 .container{
     display: grid;
     grid-gap: 0.2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.4fr 0.4fr 0.4fr;
     grid-template-areas: 
-    "in in"
-    "btn1 btn2"
-    "ul ul";
+    "in in in"
+    "btn1 btn2 btn3"
+    "ul ul ul";
     width: 100%;
     box-sizing: border-box;
     padding: 5px;
@@ -44,14 +44,31 @@ button{
     border: 1px solid #5ec749;
 }
 
+
 #input-btn{
     grid-area: btn1;
 }
+#input-btn:hover{
+    border: 1px solid seagreen;
+}
 
 #del-btn{
-    grid-area: btn2;
+    grid-area: btn3;
     background-color: rgba(0, 0, 0, 0.237);
     color:#5ec749;
+}
+#del-btn:hover{
+    border: 1px solid firebrick;
+    color: rgb(186, 148, 148);
+    
+}
+
+#save-btn{
+    grid-area: btn2;
+    
+}
+#save-btn:hover{
+    border: 1px solid seagreen;
 }
 
 #ul-el{
@@ -73,3 +90,4 @@ a{
     font-weight: 800;
     font-size: 1.1rem;
 }
+
