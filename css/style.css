@@ -14,8 +14,7 @@ body{
     grid-template-rows: 0.4fr 0.4fr 0.4fr;
     grid-template-areas: 
     "in in in"
-    "btn1 btn2 btn3"
-    "ul ul ul";
+    "btn1 btn2 btn3";
     width: 100%;
     box-sizing: border-box;
     padding: 5px;
@@ -33,6 +32,7 @@ input{
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
+    height: 17px;
 }
 
 button{
@@ -42,6 +42,7 @@ button{
     background-color:#5ec749;
     padding: 10px 20px;
     border: 1px solid #5ec749;
+    height: 45px;
     
 }
 button:hover{
@@ -70,9 +71,7 @@ button:hover{
     
 }
 
-#ul-el{
-    grid-area: ul;
-}
+
 
 
 ul{
