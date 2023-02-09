@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 10px;
-    background-color:rgb(27, 147, 221);
+    background-color:rgb(204, 216, 225);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
@@ -22,7 +22,7 @@ body{
     border-radius: 10px;
     padding-bottom: 90px;
     padding-top: 10px;
-    background-color: rgba(0, 0, 0, 0.189);
+
 }
 input{
     grid-area: in;
@@ -42,19 +42,21 @@ button{
     background-color:#5ec749;
     padding: 10px 20px;
     border: 1px solid #5ec749;
+    
+}
+button:hover{
+    box-shadow: 1px 2px 2px 2px;
 }
 
 
 #input-btn{
     grid-area: btn1;
 }
-#input-btn:hover{
-    border: 1px solid seagreen;
-}
+
 
 #del-btn{
     grid-area: btn3;
-    background-color: rgba(0, 0, 0, 0.237);
+    background-color: rgba(0, 0, 0, 0);
     color:#5ec749;
 }
 #del-btn:hover{
@@ -66,9 +68,6 @@ button{
 #save-btn{
     grid-area: btn2;
     
-}
-#save-btn:hover{
-    border: 1px solid seagreen;
 }
 
 #ul-el{
